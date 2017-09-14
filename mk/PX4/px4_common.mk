@@ -46,6 +46,7 @@ endif
 MODULES		+= modules/systemlib
 MODULES		+= modules/systemlib/mixer
 MODULES		+= modules/uORB
+MODULES		+= modules/partner_px4
 
 # Note: auth disabled to keep us under 1MB flash because of STM32 bug
 #ifneq ($(wildcard $(PX4_ROOT)/src/systemcmds/auth),)  
