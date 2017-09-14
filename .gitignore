@@ -88,3 +88,5 @@ status.txt
 tags
 terrain/
 test.ArduCopter/*
+ardupilot.sublime-project
+ardupilot.sublime-workspace
