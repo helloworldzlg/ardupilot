@@ -806,7 +806,8 @@ Compass::read(void)
     }
     uint32_t time = AP_HAL::millis();
     for (uint8_t i=0; i < COMPASS_MAX_INSTANCES; i++) {
-        _state[i].healthy = (time - _state[i].last_update_ms < 500);
+        //_state[i].healthy = (time - _state[i].last_update_ms < 500);
+    	_state[i].healthy = 1;
     }
     return healthy();
 }
